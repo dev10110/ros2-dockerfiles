@@ -1,0 +1,5 @@
+FROM osrf/ros:galactic-desktop
+
+SHELL ["bash","-c"]
+
+CMD ros2 run demo_nodes_cpp listener
